@@ -1,0 +1,33 @@
+.section__wrapper {
+    background: lightgreen;
+    width: 100%;
+    min-height: 100vh;
+    padding: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__image {
+    width: 400px;
+    height: 400px;  
+}
+
+.section__image img{ 
+    width: 100%;
+    height: 100%;
+}
+
+/*****************MEDIA QUERIES********************/
+
+@media screen and (max-width: 650px) {
+    .section__wrapper {
+        min-height: 70vh;
+        padding: 1rem 2rem;
+    }
+    .section__image {
+        width: 100%;
+        height: 80%;  
+    } 
+}

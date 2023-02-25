@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+.Link{
+    font-size: 24px;
+    color: #333;
+    padding: .5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.messagetext {
+    background-color: gold;
+    text-align: center;
+    padding: 1rem;
+    color: red;
+    text-transform: capitalize;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app__logout {
+    color: #fff;
+    background: orange;
+    width: 100%;
+    padding: 1rem 2rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.app__logout h1 {
+    border: 1px solid #fff;
+    padding: 1rem 2rem;
+    border-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.app__logout button {
+    text-align: center;
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app__logout button:hover {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+/*************MEDIA QUERIES*****************/
+
+@media screen and (max-width: 650px) {
+    .Link{
+        display: block;
+    }
+    .app__logout {
+        min-height: 70vh;
+    }
 }

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient id="d" x1="250" x2="250" y1="999.93" y2="966.22" gradientTransform="matrix(.59943 0 0 .59943 98.684 -138.24)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#4d4d4d" offset="0"/>
+   <stop stop-color="#4d4d4d" stop-opacity="0" offset="1"/>
+  </linearGradient>
+  <linearGradient id="c" x1="142.38" x2="242.99" y1="320.24" y2="6.3182" gradientUnits="userSpaceOnUse">
+   <stop offset="0"/>
+   <stop stop-color="#4c4c4c" offset="1"/>
+  </linearGradient>
+ </defs>
+ <path d="m105.01 32.411 300.19 0.40063s9.9793 7.2997 9.9793 16.865v403.57c0 9.565-7.7003 17.265-17.265 17.265h-292.9c-9.5649 0-16.21-9.1401-16.21-9.1401l-1.0552-411.69c-0.02451-9.5649 7.7003-17.278 17.265-17.265z" color="#000000" fill="#2a2a2a"/>
+ <rect x="84.825" y="29.493" width="327.43" height="438.1" ry="17.265" color="#000000" fill="#333"/>
+ <rect x="103.08" y="62.578" width="290.92" height="371.93" ry="0" color="#000000"/>
+ <circle cx="248.54" cy="46.035" r="3.9931" color="#000000"/>
+ <rect x="238.44" y="440.94" width="20.205" height="20.205" ry="7.8409" color="#000000" fill="url(#d)"/>
+ <circle cx="248.54" cy="451.05" r="5.3899" color="#000000" fill="#2a2a2a" fill-opacity=".10788" stroke="#fff" stroke-opacity=".21359" stroke-width=".36556"/>
+ <rect width="500" height="500" fill-opacity="0"/>
+ <path d="m103.08 62.578h197.86l-197.86 371.93z" color="#000000" fill="url(#c)"/>
+</svg>
